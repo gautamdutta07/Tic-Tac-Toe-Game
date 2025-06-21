@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
+  text-align: center;
+  margin-top: 40px;
+}
+
+h1 {
+  color: #333;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  margin: 20px auto;
+  width: 310px;
+  position: relative; /* Required for the win line */
+}
+
+.cell {
+  background-color: #fff;
+  border: 2px solid #666;
+  font-size: 2.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  position: relative;
+}
+
+.cell:hover {
+  background-color: #e0f7fa;
+}
+
+.status {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #333;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.win-line {
+  position: absolute;
+  height: 4px;
+  background-color: red;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  transform-origin: left center;
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
