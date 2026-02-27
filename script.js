@@ -1,6 +1,6 @@
 const board = document.getElementById("board");
 const statusText = document.getElementById("status");
-const restartBtn = document.getElementById("restartBtn");
+const restartBtn = document.getElementById("restartBtn");    
 
 let currentPlayer = "X";
 let gameActive = true;
@@ -90,3 +90,4 @@ restartBtn.addEventListener("click", restartGame);
 
 // Initialize the board
 createBoard();
+
