@@ -8,7 +8,7 @@ let cells = [];
 
 function createBoard() {
   board.innerHTML = "";
-  for (let i = 0; i < 9; i++) {
+  for (let i = 0; i < 9; i++) { 
     const cell = document.createElement("div");
     cell.classList.add("cell");
     cell.addEventListener("click", () => handleClick(i));
@@ -90,4 +90,5 @@ restartBtn.addEventListener("click", restartGame);
 
 // Initialize the board
 createBoard();
+
 
