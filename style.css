@@ -12,7 +12,7 @@ h1 {
 .board {
   display: grid;
   grid-template-columns: repeat(3, 100px);
-  grid-gap: 5px;
+  grid-gap: 5px;   
   margin: 20px auto;
   width: 310px;
   position: relative; /* Required for the win line */
@@ -62,3 +62,4 @@ button {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
