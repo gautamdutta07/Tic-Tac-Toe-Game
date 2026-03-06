@@ -5,7 +5,7 @@ const restartBtn = document.getElementById("restartBtn");
 let currentPlayer = "X";
 let gameActive = true;
 let cells = [];
-
+ 
 function createBoard() {
   board.innerHTML = "";
   for (let i = 0; i < 9; i++) { 
@@ -90,5 +90,6 @@ restartBtn.addEventListener("click", restartGame);
 
 // Initialize the board
 createBoard();
+
 
 
