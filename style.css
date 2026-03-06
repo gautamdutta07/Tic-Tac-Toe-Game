@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   background: #f0f8ff;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 40px;   
 }
 
 h1 {
@@ -62,5 +62,6 @@ button {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
 
 
