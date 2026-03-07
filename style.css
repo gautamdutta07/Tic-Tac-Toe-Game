@@ -11,7 +11,7 @@ h1 {
 
 .board {
   display: grid;
-  grid-template-columns: repeat(3, 100px);
+  grid-template-columns: repeat(3, 100px); 
   grid-gap: 5px;   
   margin: 20px auto;
   width: 310px;
@@ -62,6 +62,7 @@ button {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
 
 
 
