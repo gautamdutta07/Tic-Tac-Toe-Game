@@ -6,7 +6,7 @@ let currentPlayer = "X";
 let gameActive = true;
 let cells = [];
  
-function createBoard() {
+function createBoard() {  
   board.innerHTML = ""; 
   for (let i = 0; i < 9; i++) { 
     const cell = document.createElement("div");
@@ -90,6 +90,7 @@ restartBtn.addEventListener("click", restartGame);
 
 // Initialize the board
 createBoard();
+
 
 
 
